@@ -6,7 +6,7 @@ phases:
       - sudo yum -y update
       - sudo yum install nginx -y
       - sudo mkdir -p /var/www/html
-      - echo NGINX installed and version: $(nginx -v)
+      - echo NGINX insstalled and version nginx -v
   build:
     commands:
       - echo Build started on `date`
